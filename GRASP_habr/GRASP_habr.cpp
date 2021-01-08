@@ -6,7 +6,10 @@ using namespace std;
 
 int main()
 {
-	int cellsNumb = 10;
+	
+	// Это часть кода алгоритма, разработанного для решения проблемы сжатия остатков товаров. 
+	// Некоторые процедуры локального поиска были удалены из алгоритма по просьбе заказчика
+	int cellsNumb = 100;
 	
 	computeInstanseTask(cellsNumb);
 }
@@ -270,7 +273,6 @@ void setFreeContainersFitnessFunction(int **aCellsData, int **aMatDist, int cell
 	}
 
 	delete2Array(aCurrentDist, 2);
-
 }
 
 void setCurrentDist(int **aMatDist, int cellsNumb, int **aCurrentDist, int container){
